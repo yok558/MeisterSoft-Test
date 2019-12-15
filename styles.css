@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  width: 1940px;
+}
+
+.header {
+  position: fixed;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  background-color: rgb(123, 37, 142);
+  color: white;
+  height: 40px;
+  width: 1940px;
+}
+
+#header {
+  font-weight: 300;
+  margin: 10px;
+}
+.main {
+  background-color: rgb(54, 54, 54);
+  height: 480px;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+
+.products {
+  width: 350px;
+  padding-top: 270px;
+  padding-left: 220px;
+  padding-right: 20px;
+  font-weight: 100;
+  font-size: 48px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.card {
+  width: 257px;
+  height: 322px;
+  margin: 75px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  font-weight: 500;
+}
+
+.vector {
+  background-color: #A01F1F;
+}
+
+.testIt {
+  background-color: #218593;
+}
+
+.biMeister {
+  background-color: #0E3B7E;
+}
+
+.text {
+  width: 100%;
+  height: 50%;
+  margin-top: 70%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
